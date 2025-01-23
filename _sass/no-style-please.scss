@@ -54,7 +54,7 @@ li { margin: 0.4rem 0; }
 *:target { background: yellow; }
 
 .w {
-  max-width: 640px;
+  max-width: 706px; // Original theme is 640px but uses default box-sizing. I'd like to use border-box but have visual stability with original.
   margin: 0 auto;
   padding: 4rem 2rem;
 }

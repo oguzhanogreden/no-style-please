@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
   filter: invert(1);
@@ -89,6 +93,13 @@ blockquote {
   padding: 1rem;
 
   p { margin: 0; }
+  
+  &.post-draft-notice {
+    margin: 1rem 0;
+    border: dashed gainsboro;
+    
+    font-style: unset;
+  }
 }
 
 img {
